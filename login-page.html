@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="E:\Mini Project\styles.css" />
+<link rel="stylesheet" href="E:\Mini Project\form-style.css" />
+<script src="op.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+<div id="id01" class="modal">
+  <div id="login-box" class="animate">
+    <div class="left">
+      <ul class="tab-group">
+        <li class="tab">
+          <h1 id="ln">
+            Log In
+          </h1>
+        </li>
+      </ul>
+      <div class="tab-content">
+        <div id="login">
+          <form action="/" method="post" class="login-form" id="reset">
+            <input type="email" id="login-email" placeholder="E-Mail" required autocomplete="off" />
+            <input type="password" id="login-password" placeholder="Password" required autocomplete="off" />
+
+          </form>
+          <table class="table" cellspacing="20">
+            <tr>
+              <td>
+                <button type="button" style="vertical-align:middle" onclick="submit()" class="submitbtn"><span>Submit</span></button>
+              </td>
+              <td>
+                <button type="button" style="vertical-align:middle" onclick="myFunction()" class="cancelbtn"><span>Cancel</span></button>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div> <!-- /form -->
+    </div>
+
+    <div class="right">
+      <h1 class="loginwith">Authenticate with social network</h1>
+
+   <button class="social-signin facebook">Log in with facebook</button>
+              <button class="social-signin twitter">Log in with Twitter</button>
+              <button class="social-signin google">Log in with Google</button> 
+    </div>
+    <div class="or">OR</div>
+  </div><!-- tab-content -->
+</div>
