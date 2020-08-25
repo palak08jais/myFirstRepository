@@ -11,6 +11,7 @@ boilerplatecode/css/main.css
 boilerplatecode/package.json
 *.webmanifest
 *.png
-*.js
 boilerplatecode/package-lock.json
 *.zip
+boilerplatecode/.htaccess
+form.html

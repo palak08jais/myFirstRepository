@@ -27,7 +27,7 @@ body {
 {
   position: absolute;
 }
-.left {
+.Left {
   position: absolute;
   top: 0;
   left: 0;
@@ -100,7 +100,7 @@ input[type="submit"]:active {
   line-height: 40px;
   text-align: center;
 }
-.right {
+.Right {
   position: absolute;
   top: 0;
   right: 0;

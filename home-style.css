@@ -1,0 +1,137 @@
+body, html {
+  height: 100%;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+  margin: 0;
+}
+
+
+.pic1{
+  background-image: url('../img/pic1.jpg');
+  min-height: 100%;
+}
+
+.pic2{
+  background-image: url('../img/pic2.jpg');
+  min-height: 400px;
+}
+
+.pic3{
+  background-image: url('../img/pic3.jpg');
+  min-height: 600px;
+}
+
+.pic1, .pic2, .pic3{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.section{
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light{
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.section-dark{
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext{
+  position: absolute;
+  top:50%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size:40px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border{
+  background-color: #111;
+  color: #fff;
+  padding:20px;
+}
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 17px;
+  float: left;
+  cursor:pointer;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a:active{
+  background-color: #FF6347;
+  color: white;
+  text-decoration: underline;
+}
+
+.topnav a.left{
+
+  float: left;
+}
+
+
+.topnav a.right{
+  float: right;
+}
+.topnav .active {
+  background-color: #FF7F50;
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
