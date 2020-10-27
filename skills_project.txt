@@ -1,0 +1,15 @@
+extraversion-0 10 27 34
+agree-6 15 23 32 35 40
+consci-2 11 20 29 36 41
+emotional-8 
+intellect-4 13 22 30 38 43
+
+
+
+negative
+
+extraversion-5 14 18 24 31 39
+agree-1 19 28
+consci-7 16 25
+emotional-3 12 21 26 33 37 42
+intellect-9 17
